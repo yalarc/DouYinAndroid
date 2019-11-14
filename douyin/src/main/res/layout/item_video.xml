@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.yalarc.douyin.views.ARelativeLayout
+        android:id="@+id/simple_video_click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <com.yalarc.douyin.views.player.DYJzvdStd
+            android:id="@+id/dy_video_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_player"
+            android:visibility="gone" />
+    </com.yalarc.douyin.views.ARelativeLayout>
+
+    <com.yalarc.douyin.views.DYLikeLayout
+        android:id="@+id/dy_like_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.yalarc.douyin.views.likebutton.DYLikeView
+        android:id="@+id/dy_like_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        app:anim_scale_factor="2"
+        app:circle_end_color="@color/color_E94C7F"
+        app:circle_start_color="@color/color_E7064F"
+        app:dots_primary_color="@color/color_E7064F"
+        app:dots_secondary_color="@color/color_E94C7F"
+        app:icon_size="40dp"
+        app:like_drawable="@drawable/ic_heart_on"
+        app:unlike_drawable="@drawable/ic_heart_off" />
+
+
+</RelativeLayout>

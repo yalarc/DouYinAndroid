@@ -4,7 +4,8 @@
 
 下载体验
 
-![抖快音手](https://github.com/yalarc/DouYinAndroid/douyin/down-qr.png)
+![抖快音手](https://github.com/yalarc/DouYinAndroid/blob/master/douyin/down-qr.png)
+
 
 # 介绍：
 

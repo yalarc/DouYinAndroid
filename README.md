@@ -2,7 +2,7 @@
 
 仿抖音视频列表、屏幕点赞效果、点赞按钮效果、上拉下拉动画，加载动画效果...
 
-下载体验
+下载体验（密码 123456）
 
 ![抖快音手](https://github.com/yalarc/DouYinAndroid/blob/master/douyin/down-qr.png)
 

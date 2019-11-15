@@ -90,6 +90,44 @@ public class VideoAdapter extends BaseQuickAdapter<DouYin, BaseViewHolder> {
 
             }
         });
+        dyVideoPlayer.setSubListener(new DYJzvdStd.SubListener() {
+            @Override
+            public void setOnPrepar() {
+
+            }
+
+            @Override
+            public void setOnPreparing() {
+
+            }
+
+            @Override
+            public void setOnPlaying() {
+
+            }
+
+            @Override
+            public void setOnPause() {
+
+            }
+
+            @Override
+            public void setOnError() {
+
+            }
+
+            @Override
+            public void setOnStateAutoComplete() {
+                //结束后重新开始
+                dyVideoPlayer.startVideo();
+            }
+
+            @Override
+            public void setOnProgress(int progress, long position, long duration) {
+
+            }
+        });
+
 
     }
 
